@@ -1,0 +1,530 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ .card {
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(23, 7, 7);
+    padding: 20px;
+    margin: 70px;
+    text-align: center;
+    max-width: 500px;
+    display: inline-block;
+    position: relative;
+    background-color: #b5b8c1;
+}
+.card .card-image {
+  max-width: 50%;
+  height: 40%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.card .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.card .card-text {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  top:0px;
+  background-color: #b5b8c1;
+  padding: 0px 20px 0px;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0px 20px 0px 5px;
+}
+.nav-list li {
+  margin-right: 20px;
+}
+.nav-list li:last-child {
+  margin-right: 0;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.nav-list li a:hover {
+  color: rgb(30, 30, 109);
+}
+.rightNav {
+  text-align: right;
+}
+#search {
+  padding: 8px;
+  border-radius: 15px;
+  font-size: 26px;
+}
+.btn-search {
+  border: none;
+  background-color:  rgb(151, 179, 179);
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 10px;
+}
+.btn-search:hover {
+  background-color: hsl(180, 28%, 86%);
+  color: rgb(214, 209, 219);
+} 
+.btn-search i {
+  font-size: 18px;
+} 
+.subclass {
+  text-align: center;
+  font-size: 45px;
+  background-color: #b5b8c1;
+  padding: 50px;
+}
+.mainclass {
+  background-color: #b5b8c1;
+}
+.job-class {
+  padding: 0 0 0 25px;
+}
+.hiring {
+  padding: 0 0 0 25px;
+} 
+/* .butn {
+  background-color: rgb(124, 124, 155);
+  padding: 10px 50px 10px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  width: 17%;
+}
+.butn:hover {
+  color: rgb(30, 30, 109);
+} 
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.welcome-msg {
+  font-size: 15px;
+  background-color: green;
+  color: wheat;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.login-prompt{
+  font-size: 15px;
+  background-color: rgb(78, 93, 78);
+  color: wheat;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.counter-display {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom:20px;
+  
+}
+.feedback {
+  padding: 0 0 0 25px;
+}
+.color-display {
+  font-family: sans-serif;
+}
+.color-picker-container {
+  display: flex;
+  flex-direction: column; 
+   align-items: center;
+}
+h1 {
+  margin: 50px;
+  font-size: 50px;
+}
+.color-display {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid; */
+  /* border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+} */
+/* .color-display p {
+  color: hsl(0,0%,20%);
+  font-size: 30px;
+  text-align: center;
+}
+button {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(9, 6, 0);
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  transition:background-color 0.5 ease;
+}
+label {
+   font-size: 5px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+input[type="color"] {
+  width: 75px;
+  height: 50px; 
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+input[type="text"] {
+  width: 35%;
+  height: 55px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+} 
+.box {
+  border: 3px solid;
+  padding: 25px;
+}  */
+ /* .todoclass {
+  background-color: rgb(7, 1, 6);
+  text-align: center;
+  display: grid;
+}
+.todos {
+  text-align: center;
+  padding:55px;
+  font-size: 60px;
+  color: white;
+}
+.delete-btn {
+  background-color:hsl(10, 90%, 50%);
+  margin-left: auto;
+} 
+.delete-btn:hover {
+  background-color: hsl(10, 90%, 40%);
+}
+.move-btn {
+  background-color: rgb(117, 117, 141);
+  margin-left: 10px;
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 20px;
+  padding: 6px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: bold;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 9px solid hsl(0, 0%, 85%,0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+} */ 
+/* .nature-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  backdrop-filter: 50px;
+} */
+/* .clockclass {
+  font-size: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px;
+}
+.timeclass {
+  font-size: 80px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.counter-buttton {
+  width: 150px;
+ height: 50px; 
+  font-size: 22px;
+ font-weight: bold;
+ margin: 0px 5px;
+ background-color: greenyellow;
+ cursor: pointer;
+ border-radius: 5px;
+ text-decoration-color: rgb(15, 11, 7);  
+}
+.main {
+    text-align: center;
+    font-family: sans-serif;
+}
+ .counter-display {
+  font-size: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px;
+ }
+.counter-dis {
+  margin-top: 400px;
+}
+.start-buttton {
+  background-color: red;
+}
+.stop-buttton {
+  background-color: green;
+}
+.reset-buttton {
+  background-color: rgb(34, 133, 182);
+}
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+.calculate {
+  background-color: hsl(0, 0%, 15%);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  max-width: 500px;
+  overflow: hidden;
+}
+button:hover {
+  background-color: grey;
+}
+.btn-wrk {
+  background-color: hsl(35, 100%, 55%);
+}
+input[type="text"] {
+  width: 85%;
+  height: 75px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 20px;
+  padding-left: 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}  */
+.btn-register {
+  border-radius: 5px;
+  background-color: rgb(149, 225, 225);
+  cursor: pointer;
+  
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 5px;
+  background-color: rgb(198, 222, 222);
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.registration-form input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form button {
+  padding: 10px 20px 20px 40px;
+  background-color: #34508e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.registration-form button:hover {
+  background-color: #0056b3;
+}
+.textclass {
+  width: 50%;
+  height: 170px;
+}
+/* .feed-class {
+ padding: 70px;
+} */
+/* #bt-add {
+  color: white;
+  font-size: 10px;
+  } */
+.bt-add:hover {
+  cursor: pointer; 
+}
+ .bt-add {
+  background-color: rgb(109, 153, 223);
+  width: 7%;
+  height: 50px;
+  border-radius: 10px;
+} 
+.feed-class {
+  align-items: center;
+  margin: 0px;
+  background-color: #f3f5fa;
+  padding: 45px;
+}
+
+.feed {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* .textclass {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+} */
+
+/* .bt-add {
+  margin-bottom: 20px;
+} */
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feedback-item {
+  margin-bottom: 10px;
+}
+
+.feedback-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.text {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #ff0000;
+}
+.cards {
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(23, 7, 7);
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 900px;
+    display: inline-block;
+    position: relative;
+}
+.location {
+padding: 3px;
+}
+.contact {
+  background-color: #f3f5fa;
+  padding: 20px;
+  text-align: center;
+}
+.service {
+  background-color: #f3f5fa;
+  padding: 20px;
+}
+.list-class {
+  background-color: #f3f5fa;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.offer {
+  margin-left: 60px;
+}
+ .card-images {
+  max-width: 50%;
+  height: 40%;
+  border-radius: 5%;
+  margin-bottom: 20px;
+  margin-top: 40px;
+ }
+ .hire {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-left: 20px;
+ }
+ .jobs {
+  font-weight: bold;
+ }
